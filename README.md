@@ -1,87 +1,30 @@
-# CareerPortfolio: Data-Driven Astro SSG
-Live Demo: [careerportofio.netlify.app](https://careerportofio.netlify.app)
+# Portafolio de Cindy Marin
 
-[![Astro](https://img.shields.io/badge/Astro-FF5D01?logo=astro&logoColor=white)](https://astro.build/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Contributions Welcome](https://img.shields.io/badge/🤝_Contributions-Welcome-blue)](CONTRIBUTING.md)
+> Basado en la plantilla [career-portfolio-template](https://github.com/nbakh16/career-portfolio-template) de [@nbakh16](https://github.com/nbakh16).
 
-A high-performance, responsive portfolio built with **Astro**, **Tailwind CSS**, and **Native Browser Animations**. Designed to be 100% data-driven and easy to customize as a reusable template.
+![Astro](https://img.shields.io/badge/Astro-FF5D01?logo=astro&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white)
 
-## 🌟 Highlights
-- **Zero-JS by Default:** Leveraging Astro's islands architecture.
-- **JSON-First:** Update your information in `src/data/` without touching any code.
-- **Fully Responsive:** Optimized for mobile, tablet, and desktop.
-- **Performance:** Optimized for perfect Lighthouse scores.
+Portafolio personal como desarrollador fullstack. Muestra experiencia laboral, cursos, certificaciones y proyectos personales construidos con **Javascript/TypeScript**, **React**, **NestJS** y **Laravel-Symfony/PHP**. Rápido, estático y basado en datos.
 
-## 🛠️ Tech Stack
-- **Frontend:** [Astro](https://astro.build/) (Static Site Generation)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Icons:** [Iconify](https://iconify.design/) via `astro-icon`
-- **Deployment:** [Netlify](https://www.netlify.com)
-- **Backend:** [FastAPI](https://fastapi.tiangolo.com/) *(Works without backend — open source release coming soon)*
+## 🚀 Stack
 
-## 🚀 Getting Started
-Follow these instructions to get a local copy up and running.
+- **Framework:** Astro (SSG)
+- **Estilos:** Tailwind CSS
+- **Despliegue:** Vercel
 
-### Prerequisites
-Make sure you have **Astro v6** and **Node.js** (v22.12.0 or higher) installed on your machine.
+## 📁 Personalización
 
-### Installation
-1. Click **Use this template** on this repository.
-2. Choose **Create a new repository**.
-3. Clone your new repository: `git clone <your-repo-url>`
-4. Navigate to your repo: `cd <your-repo-name>`
-5. Install dependencies: `npm install`
-6. Start development server: `npm run dev`
-7. Update your content in `/src/data/`
-8. Build and deploy on your preferred platform
+Todo el contenido personal vive en `src/data/` — sin necesidad de tocar los componentes.
 
+## 🛠️ Correr localmente
 
-## 🛠️ How to Customize
-To make this portfolio yours, simply edit the JSON files in `src/data/`.
-```
-Directory Structure
-├── public/              # Static assets (placeholder.jpg, favicon)
-├── src/
-│   ├── components/      # Reusable Astro components
-│   ├── data/            # JSON files for project data
-│   ├── layouts/         # Layout templates with Meta tags
-│   ├── pages/           # Site routes (index.astro)
-│   └── styles/          # global css styles
-├── astro.config.mjs     # Astro configuration
-└── tsconfig.json        # Typescript configuration
+```bash
+npm install
+npm run dev
 ```
 
-#### Useful commands and links for reference:
+## 📄 Licencia
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-Tailwind CSS: `npx astro add tailwind`
-
-Inter font: `npm install @fontsource-variable/inter` 
-
-Host Grotesk font: `npm install @fontsource-variable/host-grotesk`
-
-Astro-icon: `npx astro add astro-icon`
-
-Material Desing Icons: `npm install @iconify-json/mdi`
-
-https://docs.astro.build/en/guides/styling/#add-tailwind-4
-
-https://www.astroicon.dev
-
-https://icon-sets.iconify.design/mdi/?category=Material
-
-## 🤝 Contributing
-Contributions are welcome!  
-Please read the [Contributing Guide](CONTRIBUTING.md) before opening a PR.
-
-## 📝 License
-This project is licensed under the [MIT License](LICENSE)
+Basado en una plantilla bajo licencia [MIT](./LICENSE).
