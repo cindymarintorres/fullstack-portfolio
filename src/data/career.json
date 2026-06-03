@@ -1,26 +1,62 @@
 [
   {
-    "company": "Demo Company",
-    "role": "Lead Software Engineer",
-    "period": "Oct 2025 - Present",
+    "company": "Hiberus Ecuador S.A.",
+    "role": "Web Developer",
+    "client": "Cliente: Claro Ecuador",
+    "period": "Mar. 2023 – Dic. 2025",
+    "location": "Guayaquil, Ecuador",
     "type": "Full time job",
-    "description": "Leading cross-platform mobile development using Flutter and FastAPI. Focused on scalable system design and high-performance data processing.",
-    "skills": ["Leading", "Collaboration"]
+    "description": "Lideré la modernización de plataformas legacy hacia arquitecturas desacopladas con Symfony 6 y Laravel 10, logrando mejoras de performance del +35%.|Arquitecté APIs REST seguras implementando estrategias de caché con Redis, reduciendo la carga a la base de datos en un 60%.|Refactoricé sistemas críticos aplicando principios SOLID y Clean Code, y diseñé entornos de desarrollo con Docker y MockServer para facilitar pruebas de integración.",
+    "skills": ["Symfony 6", "Laravel 10", "Redis", "REST APIs", "SOLID", "Clean Code", "Docker", "MockServer"]
   },
   {
-    "company": "Demo Company",
-    "role": "Full-stack Developer",
-    "period": "Sep 2023 - Sep 2025",
+    "company": "Link Digital S.A",
+    "role": "Web Developer",
+    "client": "Cliente: Claro Ecuador",
+    "period": "Sept. 2022 – Mar. 2023",
+    "location": "Guayaquil, Ecuador",
     "type": "Full time job",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["React", "Node.js", "PostgreSQL", "Docker"]
+    "description": "Mantenimiento de componentes clave del e-commerce de Claro Ecuador, gestionando catálogos Masivos y Corporativos.|Automaticé procesos de stock y precios, optimizando flujos operativos y reduciendo errores manuales.|Mejoré la experiencia de usuario (UX) mediante la refactorización de código y optimización de recursos frontend.",
+    "skills": ["E-commerce", "Frontend", "UX", "Automatización"]
   },
   {
-    "company": "Demo University of Tech",
-    "role": "BSc in Computer Science",
-    "period": "Jun 2020 - Jun 2024",
-    "type": "Student",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["C++", "OOP", "Problem Solving"]
+    "company": "GrupoLink",
+    "role": "Infrastructure & Production Engineer",
+    "client": "Cliente: Claro Ecuador",
+    "period": "Mar. 2021 – Sept. 2022",
+    "location": "Guayaquil, Ecuador",
+    "type": "Full time job",
+    "description": "Administré servidores Linux RHEL en entornos críticos de alta concurrencia y ejecuté tareas de performance tuning, respaldos y recuperación (DRP) en bases de datos Oracle.|Supervisé el rendimiento de APIs usando herramientas APM (Instana/Dynatrace) y gestioné la observabilidad y análisis de trazas con Graylog para agilizar el diagnóstico de errores.|Establecí políticas de seguridad de acceso bajo el principio de mínimo privilegio y configuré alertas proactivas para garantizar el cumplimiento de los SLAs.",
+    "skills": ["Linux RHEL", "Oracle", "Instana", "Dynatrace", "Graylog", "APM", "SLA", "DRP"]
+  },
+  {
+    "company": "GrupoLink Nicaragua",
+    "role": "Frontend Developer | Minisitio Movistar",
+    "client": "Cliente: Movistar",
+    "period": "Jun. 2021 – Ago. 2021",
+    "location": "Nicaragua",
+    "type": "External project",
+    "description": "Desarrollo de interfaz frontend basada en React.js para campañas comerciales de alto tráfico.|Implementé diseños responsivos y animaciones fluidas, garantizando compatibilidad entre navegadores y dispositivos móviles.",
+    "skills": ["React.js", "Responsive Design", "Animaciones CSS", "Cross-browser"]
+  },
+  {
+    "company": "CrecosCorp (Proyecto Externo)",
+    "role": "Frontend Developer",
+    "client": "",
+    "period": "Ago. 2020 – Dic. 2020",
+    "location": "Guayaquil, Ecuador",
+    "type": "External project",
+    "description": "Maquetación y carga de contenido en plataforma e-commerce corporativa VTEX.",
+    "skills": ["VTEX", "E-commerce", "Maquetación"]
+  },
+  {
+    "company": "GrupoLink",
+    "role": "Web Developer",
+    "client": "Cliente: Claro Ecuador",
+    "period": "Mar. 2020 – Mar. 2021",
+    "location": "Guayaquil, Ecuador",
+    "type": "Full time job",
+    "description": "Desarrollo de aplicaciones web internas (B2B y B2C) y sistemas de reportería para toma de decisiones.|Diseño y desarrollo de interfaces web responsivas alineadas a lineamientos corporativos.",
+    "skills": ["B2B", "B2C", "Reportería", "Responsive Design"]
   }
 ]

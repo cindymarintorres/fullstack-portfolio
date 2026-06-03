@@ -9,22 +9,22 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   {
-    label: "Home",
+    label: "Inicio",
     href: "#home",
     icon: `mdi:home`,
   },
   {
-    label: "Career",
+    label: "Experiencia",
     href: "#career",
     icon: `mdi:work`,
   },
   {
-    label: "Projects",
+    label: "Proyectos",
     href: "#projects",
     icon: `mdi:computer`,
   },
   {
-    label: "Tech",
+    label: "Tecnologías",
     href: "#tech",
     icon: `mdi:code-tags`,
   },
@@ -34,7 +34,7 @@ const navItems: NavItem[] = [
   //   icon: `mdi:message`,
   // },
   {
-    label: "Contact",
+    label: "Contacto",
     href: "#contact",
     icon: `mdi:message`,
   }
@@ -243,7 +243,7 @@ const navItems: NavItem[] = [
       const scrollProgress = Math.min(window.scrollY / maxScroll, 1);
       const easeProgress = 1 - Math.pow(1 - scrollProgress, 4);
 
-      const minWidth = 620;
+      const minWidth = 770;
       const maxWidth = window.innerWidth * 0.8;
       const currentWidth = maxWidth - (maxWidth - minWidth) * easeProgress;
 

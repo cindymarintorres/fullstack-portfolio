@@ -4,6 +4,7 @@ interface Props {
     period: string;
     role: string;
     company: string;
+    client: string;
     description: string;
     skills: string[];
   };
@@ -17,14 +18,21 @@ const isLeft = variant === 'desktop-left';
 
 const alignmentClass = isLeft ? "text-right" : "";
 
-const skillContainerClasses = `flex flex-wrap gap-2 ${isLeft ? 'justify-end' : ''}`;
+const skillContainerClasses = `flex flex-wrap gap-2 ${isLeft ? 'justify-start' : ''}`;
 ---
 
 <div class={`bg-accent/5 border border-accent/10 p-4 md:p-6 rounded-2xl hover:border-accent/40 transition-all group ${alignmentClass}`}>
   <span class={`font-mono text-xs tracking-widest uppercase text-accent/75`}>{item.period}</span>
   <h3 class="text-xl font-heading font-bold text-maintext mt-1">{item.role}</h3>
-  <p class="text-accent text-sm mb-4">{item.company}</p>
-  <p class="text-subtext font-body text-sm leading-relaxed mb-4">{item.description}</p>
+  <p class="text-accent text-sm mb-2">{item.company}</p>
+  {item.client && (
+    <p class="text-subtext text-xs italic mb-4">{item.client}</p>
+  )}
+  <ul class="list-disc list-outside pl-4 text-subtext font-body text-sm leading-relaxed mb-4 text-left">
+    {item.description.split('|').map((point: string) => (
+      <li class="mb-2">{point}</li>
+    ))}
+  </ul>
   <div class={skillContainerClasses}>
     {item.skills.map((skill: string) => (
       <span class={`rounded-md text-[10px] px-2 md:px-4 py-1 bg-accent/5 border border-accent/10 text-accent/80 group-hover:border-accent/40 group-hover:text-accent`}>{skill}</span>

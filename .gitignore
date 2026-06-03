@@ -22,3 +22,15 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+#Agentes IA
+.codex/
+.agents/
+.claude/
+.gemini/
+.antigravity/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+ANTIGRAVITY.md
+SupportFlow*.md

@@ -1,22 +1,22 @@
 {
-  "name": "John Doe",
+  "name": "Cindy Marin",
   "photoUrl": "favicon.svg",
-  "intro": "A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.",
-  "introHtml": "A brief, compelling introduction about who you are and what you do. Mention your core <span class='text-white font-bold'>philosophy</span>, your passion for building digital products, and your drive for creating <span class='text-white font-bold'>efficient</span>, <span class='text-white font-bold'>high-impact</span> solutions.",
-  "webpageTitle": "John Doe",
-  "resumeUrl": "https://example-files.online-convert.com/document/pdf/example.pdf",
+  "intro": "Full Stack Engineer con sólida experiencia diseñando, modernizando y escalando plataformas enterprise de alto tráﬁco. Especializada en arquitecturas API-ﬁrst, ecosistemas desacoplados y la evolución de sistemas legacy aplicando principios SOLID y Clean Code. Destaco por mi enfoque en la observabilidad técnica y por integrar activamente herramientas de IA para acelerar el ciclo de desarrollo, optimizar la refactorización y entregar productos escalables y de alto impacto para el negocio.",
+  "introHtml": "<span class='font-bold'>Full Stack Engineer</span> con sólida experiencia diseñando, modernizando y escalando plataformas enterprise de alto tráfico. Especializada en arquitecturas <span class='font-bold'>API-first</span>, ecosistemas desacoplados y la evolución de sistemas legacy aplicando principios <span class='font-bold'>SOLID</span> y <span class='font-bold'>Clean Code</span>. Destaco por mi enfoque en la observabilidad técnica y por integrar activamente herramientas de <span class='font-bold'>IA</span> para acelerar el ciclo de desarrollo, optimizar la refactorización y entregar productos escalables y de alto impacto para el negocio.",
+  "webpageTitle": "Cindy Marin",
+  "resumeUrl": "/resume.pdf",
 
   "_comment": "Add your social links below. Leave the 'url' empty to hide the icon. Set 'showInContact' to true or false to control if it appears in the Contact section.",
   "socials": [
     {
       "name": "GitHub",
-      "url": "https://github.com/[YOUR_USER_NAME]",
+      "url": "https://github.com/cindymarintorres",
       "icon": "mdi:github",
       "showInContact": true
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/[YOUR_USER_NAME]",
+      "url": "https://linkedin.com/in/cindymarintorres",
       "icon": "mdi:linkedin",
       "showInContact": true
     },
@@ -34,13 +34,13 @@
     },
     {
       "name": "Email",
-      "url": "mailto:your-mail@example.com",
+      "url": "mailto:cindymarintorres@hotmail.com",
       "icon": "mdi:email",
       "showInContact": true
     },
     {
       "name": "Whatsapp",
-      "url": "https://wa.me/[YOUR_WHATSAPP_NUMBER]",
+      "url": "#",
       "icon": "mdi:whatsapp",
       "showInContact": true
     },
