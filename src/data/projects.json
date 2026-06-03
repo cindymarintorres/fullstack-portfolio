@@ -1,20 +1,65 @@
 [
   {
-    "title": "Awesome Website",
-    "description": "A high-performance, SEO-optimized web application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-01.webp", "astro-02.jpeg"],
-    "tech": ["Astro", "Tailwind"],
+    "title": "Hacker Rank Labs",
+    "description": "Plataforma interactiva de entrenamiento técnico para practicar habilidades en Bash, Linux, Cloud (AWS), Kubernetes, Terraform y Dynatrace en un entorno real y seguro.",
+    "images": ["screen-hackerrank-labs.png"],
+    "tech": ["TypeScript", "NestJS", "Docker", "AWS", "Kubernetes", "Terraform"],
     "platforms": ["web"],
-    "link": "https://astro.build/themes/details/career-portfolio-data-driven-astro-ssg/",
-    "category": "Published Website"
+    "link": "https://github.com/cindymarintorres/hacker-rank-labs",
+    "category": "Open Source"
   },
   {
-    "title": "Demo Mobile App",
-    "description": "A high-performance mobile application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-02.jpeg", "#"],
-    "tech": ["Flutter", "Dart", "REST API"],
-    "platforms": ["apple-ios", "android"],
-    "link": "https://github.com/nbakh16/career-portfolio-template",
-    "category": "Hobby"
+    "title": "Support Flow Platform",
+    "description": "Plataforma moderna de gestión de soporte e incidentes empresariales inspirada en ServiceNow, desarrollada bajo arquitectura API-first y principios SOLID.",
+    "images": ["screen-support-flow.png"],
+    "tech": ["TypeScript", "NestJS", "React", "Prisma", "PostgreSQL", "Docker"],
+    "platforms": ["web"],
+    "link": "https://github.com/cindymarintorres/support-flow-platform",
+    "category": "Full Stack"
+  },
+  {
+    "title": "Feedback Board",
+    "description": "Plataforma de feedback y votación para productos, similar a Canny.io pero open source y self-hosteable. Los usuarios envían sugerencias, votan y reciben notificaciones por email.",
+    "images": ["screen-feedback-board.png"],
+    "tech": ["TypeScript", "NestJS", "React", "Prisma", "PostgreSQL", "Docker"],
+    "platforms": ["web"],
+    "link": "https://github.com/cindymarintorres/feedback-board",
+    "category": "Full Stack"
+  },
+  {
+    "title": "Snap URL",
+    "description": "Acortador de URLs fullstack construido con Next.js 14 App Router. Permite registrarse, crear links cortos, protegerlos con password y establecer fecha de expiración.",
+    "images": ["screen-snapurl.png"],
+    "tech": ["TypeScript", "Next.js", "PostgreSQL", "Prisma"],
+    "platforms": ["web"],
+    "link": "https://github.com/cindymarintorres/snap-url",
+    "category": "Full Stack"
+  },
+  {
+    "title": "Currency Flow",
+    "description": "Conversor de divisas en tiempo real construido con Angular 21 y PrimeNG. Consume la ExchangeRate API para convertir monedas, registrar historial de conversiones y gestionar favoritos.",
+    "images": ["screen-currency-flow.png"],
+    "tech": ["TypeScript", "Angular", "PrimeNG"],
+    "platforms": ["web"],
+    "link": "https://github.com/cindymarintorres/currency-flow",
+    "category": "Frontend"
+  },
+  {
+    "title": "QA Cypress DemoBlaze",
+    "description": "Suite de automatización E2E y API para DemoBlaze usando Cypress. Implementa Page Objects, Tasks, Models y Scenario Outline con fixtures CSV/JSON.",
+    "images": ["screen-qa-cypress.png"],
+    "tech": ["JavaScript", "Cypress"],
+    "platforms": ["web"],
+    "link": "https://github.com/cindymarintorres/qa-cypress-demoblaze",
+    "category": "QA"
+  },
+  {
+    "title": "QA K6 Load Test",
+    "description": "Suite de load testing para el endpoint de login de FakeStoreAPI usando K6. Incluye usuarios parametrizados con CSV, validación de thresholds y reporte de análisis.",
+    "images": ["screen-qa-k6-test.png"],
+    "tech": ["JavaScript", "K6"],
+    "platforms": ["web"],
+    "link": "https://github.com/cindymarintorres/qa-k6-load-test",
+    "category": "QA"
   }
 ]
