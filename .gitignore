@@ -13,6 +13,7 @@ yarn-error.log*
 pnpm-debug.log*
 
 
+
 # environment variables
 .env
 .env.production
@@ -22,6 +23,15 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.history/*
 
 #Agentes IA
 .codex/
