@@ -3,7 +3,14 @@
     "title": "Hacker Rank Labs",
     "description": "Plataforma interactiva de entrenamiento técnico para practicar habilidades en Bash, Linux, Cloud (AWS), Kubernetes, Terraform y Dynatrace en un entorno real y seguro.",
     "images": ["screen-hackerrank-labs.png"],
-    "tech": ["TypeScript", "NestJS", "Docker", "AWS", "Kubernetes", "Terraform"],
+    "tech": [
+      "TypeScript",
+      "NestJS",
+      "Docker",
+      "AWS",
+      "Kubernetes",
+      "Terraform"
+    ],
     "platforms": ["web"],
     "link": "https://github.com/cindymarintorres/hacker-rank-labs",
     "category": "Open Source"
@@ -43,6 +50,15 @@
     "platforms": ["web"],
     "link": "https://github.com/cindymarintorres/currency-flow",
     "category": "Frontend"
+  },
+  {
+    "title": "SICTEC",
+    "description": "Sistema de clasificación tributaria y contable que procesa archivos Excel/CSV con RUC, consulta la actividad económica en el SRI (Ecuador) y clasifica cada registro por categoría de gasto mediante un motor de reglas basado en el catálogo CIIU, devolviendo el archivo enriquecido listo para descargar.",
+    "images": ["screen-sictec.png"],
+    "tech": ["React", "TypeScript", "Laravel", "PHP", "PostgreSQL", "Docker"],
+    "platforms": ["web"],
+    "link": "https://github.com/cindymarintorres/sictec",
+    "category": "Full Stack"
   },
   {
     "title": "QA Cypress DemoBlaze",
